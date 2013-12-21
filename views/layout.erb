@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Coins &mdash; Bitcoin Value Tracker</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/96f84b1d-e391-4ec6-a269-bce4c09cfb3a.css">
+  <link rel="stylesheet" href="/assets/application.css">
+</head>
+<body>
+  <header>
+    <div class="grater grater-container">
+      <div>
+        <a class="icon" href="<%= APP_STORE_URL %>" rel="external nofollow"><img src="/assets/icon.svg"></a>
+      </div>
+      <div>
+        <h1><a href="/" rel="home">Coins</a></h1>
+        <h2>Bitcoin value tracker</h2>
+        <p><%= app_store_button(true) %></p>
+      </div>
+    </div>
+  </header>
+  <%= yield %>
+  <footer class="grater grater-container">
+    <div>
+      &copy; <%= Time.now.year %> <a href="http://nothingmagical.com" rel="external nofollow">Nothing Magical Inc.</a>
+    </div>
+    <div>
+      <ul>
+        <li><a href="/support">Support</a></li>
+        <li><a href="mailto:sam@nothingmagical.com">Contact</a></li>
+        <li><a href="/press">Press</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="/assets/srcset.min.js"></script>
+  <%= yield_content :javascripts %>
+  <% if ENV['RACK_ENV'] == 'production' %>
+  <script>var _gauges=_gauges||[];(function(){var t=document.createElement('script');t.async=true;t.id='gauges-tracker';t.setAttribute('data-site-id','52b4fc98eddd5b7cc5002b23');t.src='//secure.gaug.es/track.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(t,s);})();</script>
+  <% end %>
+</body>
+</html>
