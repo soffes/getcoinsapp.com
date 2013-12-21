@@ -1,11 +1,11 @@
-# Shares
+# Coins
 
-Website for [Shares](https://itunes.apple.com/app/shares/id495399233).
+Website for [Coins](https://itunes.apple.com/app/id787299853).
 
 ## Running Locally
 
-    $ git clone https://github.com/nothingmagical/getsharesapp.com.git
-    $ cd getsharesapp.com
+    $ git clone https://github.com/nothingmagical/getcoinsapp.com.git
+    $ cd getcoinsapp.com
     $ bundle install
     $ bundle exec shotgun
 
