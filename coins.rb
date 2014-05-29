@@ -1,5 +1,5 @@
 class Coins < Sinatra::Base
-  APP_STORE_URL = 'https://itunes.apple.com/app/id787299853'.freeze
+  APP_STORE_URL = 'https://itunes.apple.com/app/id787299853?mt=8&uo=4&at=1l3vmtU'.freeze
   GOOGLE_PLAY_URL = 'https://play.google.com/store/apps/details?id=com.nothingmagical.coins'.freeze
 
   helpers Sinatra::ContentFor2
