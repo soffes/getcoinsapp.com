@@ -1,12 +1,18 @@
 # Coins
 
-Website for [Coins](https://itunes.apple.com/app/id787299853).
+Website for [Coins](http://getcoinsapp.com).
 
 ## Running Locally
 
-    $ git clone https://github.com/nothingmagical/getcoinsapp.com.git
+    $ git clone https://github.com/nothingmagical/getcoinsapp.com
     $ cd getcoinsapp.com
     $ bundle install
     $ bundle exec shotgun
 
 Enjoy.
+
+
+## Related Repos
+
+* [Coins for iOS](https://github.com/nothingmagical/coins)
+* [Coins for Android](https://github.com/nothingmagical/coins-android)
