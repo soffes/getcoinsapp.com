@@ -1,7 +1,5 @@
 # Coins
 
-Website for [Coins](http://getcoinsapp.com).
-
 ## Running Locally
 
     $ git clone https://github.com/nothingmagical/getcoinsapp.com
